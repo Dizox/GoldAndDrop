@@ -1,0 +1,55 @@
+.Inventory {
+  padding: 20px 40px;
+}
+
+.Inventory__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Inventory__equipment {
+  display: flex;
+}
+
+.Inventory__column {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.Inventory__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  border: 1px solid aquamarine;
+}
+
+.Inventory__item_weapon {
+  height: 200px;
+}
+
+.Inventory__img {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Inventory__aboutEquip {
+  width: 300px;
+  border: 1px solid aquamarine;
+}
+
+.Inventory__title {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Inventory__infoblock {
+  margin-bottom: 15px;
+}
+
+.Inventory__info {
+  line-height: 20px;
+  font-style: italic;
+}
